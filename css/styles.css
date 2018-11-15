@@ -1,0 +1,113 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #818181;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .2s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.nav-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+.search {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#map {
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -4;
+}
+
+#pano {
+    width: 200px;
+    height: 200px;
+}
+
+.list-group-item {
+    border-radius: 0px !important;
+    border: 0.5px solid #111;
+    background-color: #111;;
+}
+
+.list-group-item:focus {
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border-color: rgb(34, 34, 34);
+}
+
+.list-group-item:hover {
+    color: #f5f5f5;
+    background-color: #555;
+}
+
+#foursquare-img {
+    height: 35px;
+    width: 35px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    width: 5%;
+    height: 50px;
+    color: white;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+.footer-name {
+    font-size: .8em;
+}
